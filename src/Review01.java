@@ -8,7 +8,7 @@ public class Review01 {
 		//消費税額
         int shouhinkakaku = 1500;
         //税率(％)
-        int zeiritsu = 8;
+        int zeiritsu = 10;
         //消費税額
         int shouhizeigaku;
         //税込み価格
