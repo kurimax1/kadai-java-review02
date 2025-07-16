@@ -8,7 +8,7 @@ public class Review01 {
 		//消費税額
         int shouhinkakaku = 1500;
         //税率(％)
-        int zeiritsu = 10;
+        int zeiritsu = 8;
         //消費税額
         int shouhizeigaku;
         //税込み価格
@@ -24,7 +24,7 @@ public class Review01 {
 	
 	//消費税額を計算してmainメソッドに返す
 	public static int tax(int shouhinkakaku,int zeiritsu) {
-		int tax_num = shouhinkakaku / zeiritsu;
+		int tax_num = shouhinkakaku * zeiritsu / 100;
         return tax_num;
 
 	}
